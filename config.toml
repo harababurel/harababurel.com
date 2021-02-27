@@ -50,4 +50,6 @@ include_content = true
 [extra]
 # Put all your custom variables here
 author = "Sergiu Puscas"
-
+highlightjs = false
+plotlyjs = false
+katexjs = false
