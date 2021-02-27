@@ -35,7 +35,7 @@ pub fn is_drive_document(&self) -> bool {
 }
 ```
 
-The actual list of supported languages depends on the library used for syntax highlighting. Zola supports [over 100](https://www.getzola.org/documentation/content/syntax-highlighting/) languages. GitHub uses [linguist](https://github.com/github/linguist) which has [over 500](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) language definitions.
+The actual list of supported languages depends on the syntax highlighting engine. Zola supports [over 100](https://www.getzola.org/documentation/content/syntax-highlighting/) languages. GitHub uses [linguist](https://github.com/github/linguist) which has [over 500](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) language definitions.
 
 This works fantastically well when writing code blocks in any of these predefined languages. The drawbacks are few and fairly minor: edge cases such as incorrect highlighting when using newer features of some languages or having custom prompts/commands when writing console snippets.
 
