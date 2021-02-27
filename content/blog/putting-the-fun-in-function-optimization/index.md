@@ -1,6 +1,10 @@
 +++
 title = "Putting the Fun in Function Optimization"
 date = 2018-05-02
+
+[extra]
+plotlyjs = true
+katexjs = true
 +++
 
 
