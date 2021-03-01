@@ -13,19 +13,7 @@
   }
 }
 
-.toc {
-  float: left;
-  position: fixed; // move along with scrolling
-  width: 12em;
-  left: 3em;
-}
-
 .post {
-  padding: 2em 2em 2em 13em;
-  // padding-left: 1em;
-  // float:left;
-  min-width: 600px;
-
   &__title {
     margin-bottom: 4rem;
     text-align: center;
