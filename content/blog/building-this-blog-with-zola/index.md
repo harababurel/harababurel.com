@@ -22,16 +22,15 @@ I eventually landed on [Zola](https://www.getzola.org/), which I used to generat
 
 * it's a simple tool. To emphasize this point, just take a look at what the arch package contains:
 
-  ```bash
-  $ trizen -Ql zola
-  zola /usr/
-  zola /usr/bin/
-  zola /usr/bin/zola
-  zola /usr/share/
-  zola /usr/share/licenses/
-  zola /usr/share/licenses/zola/
-  zola /usr/share/licenses/zola/LICENSE
-  ```
+  <pre><code><span style="font-weight:bold;">~</span> ❱ <span style="font-weight:bold;color:blue;">trizen</span> <span style="color:#005fd7;">-Ql zola</span>
+  <span style="font-weight:bold;">zola</span> /usr/
+  <span style="font-weight:bold;">zola</span> /usr/bin/
+  <span style="font-weight:bold;">zola</span> /usr/bin/zola
+  <span style="font-weight:bold;">zola</span> /usr/share/
+  <span style="font-weight:bold;">zola</span> /usr/share/licenses/
+  <span style="font-weight:bold;">zola</span> /usr/share/licenses/zola/
+  <span style="font-weight:bold;">zola</span> /usr/share/licenses/zola/LICENSE
+  </code></pre>
 
   Just one binary and a LICENSE file. That's it.
 
@@ -44,53 +43,53 @@ I eventually landed on [Zola](https://www.getzola.org/), which I used to generat
 
 Installing Zola on Arch is straightforward. _Note:_ I use [trizen](https://github.com/trizen/trizen) instead of [pacman](https://wiki.archlinux.org/index.php/pacman).
 
-```bash
-$ trizen -S zola
-:: Pacman command: /usr/bin/sudo /usr/bin/pacman -S zola
+<pre><code><span style="font-weight:bold;">~</span> ❱ <span style="font-weight:bold;color:blue;">trizen</span> <span style="color:#005fd7;">-S zola</span>
+<span style="font-weight:bold;"></span><span style="font-weight:bold;color:blue;">::</span> <span style="font-weight:bold;">Pacman command: </span><span style="font-weight:bold;color:blue;">/usr/bin/sudo /usr/bin/pacman -S</span>
 resolving dependencies...
 looking for conflicting packages...
 
-Packages (1) zola-0.13.0-1
+<span style="font-weight:bold;">Packages (1)</span> zola-0.13.0-1
 
-Total Installed Size:  20.14 MiB
+<span style="font-weight:bold;">Total Download Size: </span>   5.91 MiB
+<span style="font-weight:bold;">Total Installed Size:</span>  20.14 MiB
 
-:: Proceed with installation? [Y/n] y
-(1/1) checking keys in keyring                                    [####################################] 100%
-(1/1) checking package integrity                                  [####################################] 100%
-(1/1) loading package files                                       [####################################] 100%
-(1/1) checking for file conflicts                                 [####################################] 100%
-(1/1) checking available disk space                               [####################################] 100%
-:: Processing package changes...
-(1/1) installing zola                                             [####################################] 100%
-:: Running post-transaction hooks...
-(1/1) Arming ConditionNeedsUpdate...
-```
+<span style="font-weight:bold;color:blue;">::</span><span style="font-weight:bold;"> Proceed with installation? [Y/n] </span>y
+<span style="font-weight:bold;color:blue;">::</span><span style="font-weight:bold;"> Retrieving packages...</span>
+ zola-0.13.0-1-x86_64           5.9 MiB  4.11 MiB/s 00:01 [#############################] 100%
+(1/1) checking keys in keyring                            [#############################] 100%
+(1/1) checking package integrity                          [#############################] 100%
+(1/1) loading package files                               [#############################] 100%
+(1/1) checking for file conflicts                         [#############################] 100%
+(1/1) checking available disk space                       [#############################] 100%
+<span style="font-weight:bold;color:blue;">::</span><span style="font-weight:bold;"> Processing package changes...
+</span>(1/1) installing zola                                     [#############################] 100%
+<span style="font-weight:bold;color:blue;">::</span><span style="font-weight:bold;"> Running post-transaction hooks...
+</span>(1/1) Arming ConditionNeedsUpdate...
+</code></pre>
 
 The `zola` binary exposes the `init` command for initializing a blank website. I decided to create mine under `/srv/harababurel.com` alongside some of the other web services I host:
 
-```bash
-$ sudo mkdir /srv/harababurel.com
-$ sudo chown sergiu:users /srv/harababurel.com/
-$ cd /srv/
-$ zola init harababurel.com
-Welcome to Zola!
-Please answer a few questions to get started quickly.
-Any choices made can be changimged by modifying the `config.toml` file later.
-> What is the URL of your site? (https://example.com): http://harababurel.com
-> Do you want to enable Sass compilation? [Y/n]:
-> Do you want to enable syntax highlighting? [y/N]: y
-> Do you want to build a search index of the content? [y/N]: y
+<pre><code><span style="font-weight:bold;">~</span> ❱ <span style="font-weight:bold;color:blue;">sudo</span> <span style="color:#005fd7;">mkdir /srv/harababurel.com</span>
+<span style="font-weight:bold;">~</span> ❱ <span style="font-weight:bold;color:blue;">sudo</span> <span style="color:#005fd7;">chown sergiu:users /srv/harababurel.com</span>
+<span style="font-weight:bold;">~</span> ❱ <span style="font-weight:bold;color:blue;">cd</span> <span style="color:#005fd7;">/srv</span>
+/<span style="font-weight:bold;">srv</span> ❱ <span style="font-weight:bold;color:blue;">zola</span> <span style="color:#005fd7;">init harababurel.com</span>
+<span style="font-weight:bold;">Welcome to Zola!</span>
+<span style="font-weight:bold;">Please answer a few questions to get started quickly.</span>
+<span style="font-weight:bold;">Any choices made can be changed by modifying the `config.toml` file later.</span>
+&gt; What is the URL of your site? (https://example.com): https://harababurel.com
+&gt; Do you want to enable Sass compilation? [Y/n]: y
+&gt; Do you want to enable syntax highlighting? [y/N]: y
+&gt; Do you want to build a search index of the content? [y/N]: y
 
-Done! Your site was created in /srv/harababurel.com
+<span style="font-weight:bold;"></span><span style="font-weight:bold;color:blue;">Done! Your site was created in /srv/harababurel.com</span>
 
-Get started by moving into the directory and using the built-in server: `zola serve`
+<span style="font-weight:bold;">Get started by moving into the directory and using the built-in server: `zola serve`</span>
 Visit https://www.getzola.org for the full documentation.
-```
+</code></pre>
 
 This creates the following skeleton:
 
-```bash
-$ tree
+<pre><code>/srv/<span style="font-weight:bold;">harababurel.com</span> ❱ <span style="font-weight:bold;color:blue;">tree</span>
 .
 ├── config.toml
 ├── content
@@ -100,24 +99,24 @@ $ tree
 └── themes
 
 5 directories, 1 file
-```
+</code></pre>
 
 
 ## Built-in web server
 
 You can preview the website quickly using `zola serve`. I'm using `0.0.0.0` instead of `127.0.0.1` in order to be able to access the server from outside the network.
 
-```bash
-$ zola serve -u 0.0.0.0 -i 0.0.0.0
-Building site...
--> Creating 0 pages (0 orphan), 0 sections, and processing 0 images
-Done in 5ms.
+
+<pre><code>/srv/<span style="font-weight:bold;">harababurel.com</span> ❱ <span style="font-weight:bold;color:blue;">zola</span> <span style="color:#005fd7;">serve -u 0.0.0.0 -i 0.0.0.0</span>
+<span style="font-weight:bold;">Building site...</span>
+-&gt; Creating 0 pages (0 orphan), 0 sections, and processing 0 images
+<span style="font-weight:bold;"></span><span style="font-weight:bold;color:blue;">Done in 5ms.
+</span>
+Web server is available at http://0.0.0.0:1111
 
 Listening for changes in /srv/harababurel.com{config.toml, content, sass, static, templates}
 Press Ctrl+C to stop
-
-Web server is available at http://0.0.0.0:1111
-```
+</code></pre>
 
 Which results in this:
 
@@ -127,8 +126,7 @@ Now, the official documentation suggests a certain [content structure](https://w
 
 All in all, this is the current file structure of this site:
 
-```bash
-$ tree -I public # exclude the auto-generated "public" dir
+<pre><code>/srv/<span style="font-weight:bold;">harababurel.com</span> ❱ <span style="font-weight:bold;color:blue;">tree</span> <span style="color:#005fd7;">-I public</span> <span style="font-weight:bold;color:grey;"># exclude the auto-generated "public" dir</span>
 .
 ├── config.toml
 ├── content
@@ -158,7 +156,7 @@ $ tree -I public # exclude the auto-generated "public" dir
 └── themes
 
 8 directories, 18 files
-```
+</code></pre>
 
 ## Editing
 
