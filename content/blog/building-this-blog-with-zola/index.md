@@ -3,7 +3,7 @@ title = "Building This Blog With Zola"
 date = 2021-02-10
 +++
 
-While looking for options of reviving my old blog, I initially wanted to use the same platform as before -- [Ghost](https://ghost.org/). After assessing [the state of Ghost on Arch](http://harababurel.com/blog/state-of-ghost-on-arch), I decided it's probably not worth the effort so I did some research on [HN](http://news.ycombinator.com/). Some solutions came up repeatedly:
+While looking for options of reviving my old blog, I initially wanted to use the same platform as before -- [Ghost](https://ghost.org/). After assessing the state of Ghost on Arch, I decided it's probably not worth the effort so I did some research on [HN](http://news.ycombinator.com/). Some solutions came up repeatedly:
 
 * [Bear](https://bearblog.dev) -- this would have been my first choice but it does not currently support self hosting.
 * [Micro.blog](https://micro.blog/) -- I want a free solution, especially as I am hosting it on my own server.
