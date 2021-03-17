@@ -1,5 +1,5 @@
 +++
-title = "Preserving Terminal Colors on the Web"
+title = "Preserving Terminal Colors On The Web"
 date = 2021-02-27
 
 [extra]
