@@ -9,6 +9,7 @@
 <div class="post">
     <div class="post__title">
         <h1>{{ page.title | safe }}</h1>
+        {% if page.extra.subtitle %}<h2>{{ page.extra.subtitle | safe }}</h2>{% endif %}
         <div class="post__meta">
             {% if page.date %}{{ page.date | date(format="%Y-%m-%d") }}{% endif %}
             {% if page.extra.updated %}(last updated: {{ page.extra.updated | date(format="%Y-%m-%d") }}){% endif %}
