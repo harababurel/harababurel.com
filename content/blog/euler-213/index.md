@@ -21,7 +21,11 @@ The problem statement looks deceivingly simple but also doesn't give away any ap
 
 This can give a reasonable approximation of the final result but is in no way feasible considering the required precision. A straight-forward implementation can simulate one experiment in  $ O(n^2 \cdot k) $, which is already a non-trivial complexity. My C++ implementation needs almost a minute to simulate the experiment $ 10^5 $ times. The precision is not great: at most one significant figure, and only some of the time. Increasing the iteration count to $ 10^6 $ does not necessarily perform better. There is still a high variance between runs.
 
-But at least we have a better idea of what the answer looks like.
+But at least we have a better idea of what the answer looks like:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_gOsLi2-MC0?autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 ## Expected value
 
@@ -83,7 +87,7 @@ We can treat cells individually. A cell $(x, y)$ will be unoccupied at the end o
 
 $$ p(x,y) = \prod \(1-dp(i, j, x, y, k)\) $$
 
-As it turns out, this probability shows exactly by how much cell $(x, y)$ contributes to the expected number ofunoccupied cells. The final answer is:
+As it turns out, this probability shows exactly by how much cell $(x, y)$ contributes to the expected number of unoccupied cells. The final answer is:
 
 $$ E(X) = \sum p(x, y) $$
 
