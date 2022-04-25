@@ -60,7 +60,7 @@ $ exa -l --git  # show git information
 
 My usual workflow looks like this:
 
-```console
+```
 $ task proj:work.ml add "write design doc" due:3d
 Created task 64.
 The project 'work.ml' has changed.
@@ -179,7 +179,7 @@ For example, monitoring CPU temperature:
 $ watch -n 1 'sensors | grep "Core"'
 ```
 
-```console
+```
 Every 1.0s: sensors | grep "Core"
 Core 0:        +44.0°C  (high = +100.0°C, crit = +100.0°C)
 Core 1:        +45.0°C  (high = +100.0°C, crit = +100.0°C)
