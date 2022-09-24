@@ -1,0 +1,1069 @@
+# A (dedicated for e-ink display)
+
+## Write
+duration: 1h6m6s
+free space: 0.00 Byte
+average writing speed: 15.07 MB/s
+
+## Read
+Data OK: 58.35 GB (122376160 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 17.34 MB/s
+
+# B
+
+## Write
+duration: 7h25m55s
+Free space: 0.00 Byte
+Average writing speed: 19.14 MB/s
+
+## Read
+
+                  SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+Validating file 2.h2w ... 2097152/        0/      0/      0
+Validating file 3.h2w ... 2097152/        0/      0/      0
+Validating file 4.h2w ... 2097152/        0/      0/      0
+Validating file 5.h2w ... 2097152/        0/      0/      0
+Validating file 6.h2w ... 2097152/        0/      0/      0
+Validating file 7.h2w ... 2097152/        0/      0/      0
+Validating file 8.h2w ... 2097152/        0/      0/      0
+Validating file 9.h2w ... 2097152/        0/      0/      0
+Validating file 10.h2w ... 2097152/        0/      0/      0
+Validating file 11.h2w ... 2097152/        0/      0/      0
+Validating file 12.h2w ... 2097152/        0/      0/      0
+Validating file 13.h2w ... 2097152/        0/      0/      0
+Validating file 14.h2w ... 2097152/        0/      0/      0
+Validating file 15.h2w ... 2097152/        0/      0/      0
+Validating file 16.h2w ... 2097152/        0/      0/      0
+Validating file 17.h2w ... 2097152/        0/      0/      0
+Validating file 18.h2w ... 2097152/        0/      0/      0
+Validating file 19.h2w ... 2097152/        0/      0/      0
+Validating file 20.h2w ... 2097152/        0/      0/      0
+Validating file 21.h2w ... 2097152/        0/      0/      0
+Validating file 22.h2w ... 2097152/        0/      0/      0
+Validating file 23.h2w ... 2097152/        0/      0/      0
+Validating file 24.h2w ... 2097152/        0/      0/      0
+Validating file 25.h2w ... 2097152/        0/      0/      0
+Validating file 26.h2w ... 2097152/        0/      0/      0
+Validating file 27.h2w ... 2097152/        0/      0/      0
+Validating file 28.h2w ... 2097152/        0/      0/      0
+Validating file 29.h2w ... 2097152/        0/      0/      0
+Validating file 30.h2w ...  505047/  1592105/      0/      0
+Validating file 31.h2w ...       0/  2097152/      0/      0
+Validating file 32.h2w ...       0/  2097152/      0/      0
+Validating file 33.h2w ... 6.51% -- 2.02 MB/s -- 15:37:32
+
+
+
+f3probe
+
+F3 probe 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+WARNING: Probing normally takes from a few seconds to 15 minutes, but
+         it can take longer. Please be patient.
+
+Bad news: The device `/dev/mmcblk0' is damaged
+
+Device geometry:
+                 *Usable* size: 0.00 Byte (0 blocks)
+                Announced size: 500.00 GB (1048576000 blocks)
+                        Module: 512.00 GB (2^39 Bytes)
+        Approximate cache size: 31.00 MB (63488 blocks), need-reset=no
+           Physical block size: 512.00 Byte (2^9 Bytes)
+
+Probe time: 31.39s
+ Operation: total time / count = avg time
+      Read: 15.58s / 131292 = 118us
+     Write: 15.78s / 190513 = 82us
+     Reset: 1us / 2 = 0us
+
+
+# C
+
+## Write
+duration: 17m42s
+Average writing speed: 28.92 MB/s
+
+## Read
+Data OK: 29.71 GB (62309312 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 86.64 MB/s
+
+
+# D
+
+## Write
+duration: 23m59s
+Average writing speed: 20.80 MB/s
+
+## Read
+
+  Data OK: 29.11 GB (61052174 sectors)
+Data LOST: 25.00 KB (50 sectors)
+               Corrupted: 25.00 KB (50 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 77.40 MB/s
+
+# E
+
+## Write
+Average writing speed: 28.95 MB/s
+17m 30.6s ❱
+
+## Read
+  Data OK: 29.71 GB (62309312 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 86.66 MB/s
+
+# F (kodak)
+
+## Write
+Free space: 0.00 Byte
+Average writing speed: 22.33 MB/s
+22m14s
+
+## Read
+
+  Data OK: 29.11 GB (61042304 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 82.71 MB/s
+
+# G
+
+## Write
+
+Free space: 0.00 Byte
+Average writing speed: 27.51 MB/s
+
+## Read
+  Data OK: 59.66 GB (125107232 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 73.44 MB/s
+
+# H
+
+## Write
+
+Average writing speed: 17.90 MB/s
+~/Downloads 1h 52m 42.1s ❱
+
+## Read
+
+  Data OK: 29.46 GB (61773775 sectors)
+Data LOST: 88.69 GB (186005553 sectors)
+               Corrupted: 88.69 GB (186005033 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 260.00 KB (520 sectors)
+Average reading speed: 2.68 MB/s
+
+# I
+
+## Write
+Free space: 0.00 Byte
+Average writing speed: 32.07 MB/s
+~/Downloads 31m 11.8s ❱
+
+## Read
+
+Data OK: 58.59 GB (122877504 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 84.53 MB/s
+
+# J
+
+## Write
+
+Free space: 0.00 Byte
+Average writing speed: 16.83 MB/s
+~/Downloads 2h 6m 46.8s ❱
+
+## Read
+
+~/Downloads ❱ f3read /mnt/sd
+F3 read 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+                  SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+Validating file 2.h2w ... 2097152/        0/      0/      0
+Validating file 3.h2w ... 2097152/        0/      0/      0
+Validating file 4.h2w ... 2097152/        0/      0/      0
+Validating file 5.h2w ... 2097152/        0/      0/      0
+Validating file 6.h2w ... 2097152/        0/      0/      0
+Validating file 7.h2w ... 2097152/        0/      0/      0
+Validating file 8.h2w ... 2097152/        0/      0/      0
+Validating file 9.h2w ... 2097152/        0/      0/      0
+Validating file 10.h2w ... 2097152/        0/      0/      0
+Validating file 11.h2w ... 2097152/        0/      0/      0
+Validating file 12.h2w ... 2097152/        0/      0/      0
+Validating file 13.h2w ... 2097152/        0/      0/      0
+Validating file 14.h2w ... 2097152/        0/      0/      0
+Validating file 15.h2w ... 2097152/        0/      0/      0
+Validating file 16.h2w ... 2097152/        0/      0/      0
+Validating file 17.h2w ... 2097152/        0/      0/      0
+Validating file 18.h2w ... 2097152/        0/      0/      0
+Validating file 19.h2w ... 2097152/        0/      0/      0
+Validating file 20.h2w ... 2097152/        0/      0/      0
+Validating file 21.h2w ... 2097152/        0/      0/      0
+Validating file 22.h2w ... 2097152/        0/      0/      0
+Validating file 23.h2w ... 2097152/        0/      0/      0
+Validating file 24.h2w ... 2097152/        0/      0/      0
+Validating file 25.h2w ... 2097152/        0/      0/      0
+Validating file 26.h2w ... 2097152/        0/      0/      0
+Validating file 27.h2w ... 2097152/        0/      0/      0
+Validating file 28.h2w ... 2097152/        0/      0/      0
+Validating file 29.h2w ... 2097152/        0/      0/      0
+Validating file 30.h2w ...  506775/  1590377/      0/      0
+Validating file 31.h2w ...       0/  2097152/      0/      0
+Validating file 32.h2w ...       0/  2097152/      0/      0
+Validating file 33.h2w ...       0/  2097152/      0/      0
+Validating file 34.h2w ...       0/  2097152/      0/      0
+Validating file 35.h2w ...       0/  2097152/      0/      0
+Validating file 36.h2w ...       0/  2097152/      0/      0
+Validating file 37.h2w ...       0/  2097152/      0/      0
+Validating file 38.h2w ...       0/  2097152/      0/      0
+Validating file 39.h2w ...       0/  2097152/      0/      0
+Validating file 40.h2w ...       0/  2097152/      0/      0
+Validating file 41.h2w ...       0/  2097152/      0/      0
+Validating file 42.h2w ...       0/  2097152/      0/      0
+Validating file 43.h2w ...       0/  2097152/      0/      0
+Validating file 44.h2w ...       0/  2097152/      0/      0
+Validating file 45.h2w ...       0/  2097152/      0/      0
+Validating file 46.h2w ...       0/  2097152/      0/      0
+Validating file 47.h2w ...       0/  2097152/      0/      0
+Validating file 48.h2w ...       0/  2097152/      0/      0
+Validating file 49.h2w ...       0/  2097152/      0/      0
+Validating file 50.h2w ...       0/  2097152/      0/      0
+Validating file 51.h2w ...       0/  2097152/      0/      0
+Validating file 52.h2w ...       0/  2097152/      0/      0
+Validating file 53.h2w ...       0/  2097152/      0/      0
+Validating file 54.h2w ...       0/  2097152/      0/      0
+Validating file 55.h2w ...       0/  2097152/      0/      0
+Validating file 56.h2w ...       0/  2097152/      0/      0
+Validating file 57.h2w ...       0/  2097152/      0/      0
+Validating file 58.h2w ...       0/  2097152/      0/      0
+Validating file 59.h2w ...       0/  2097152/      0/      0
+Validating file 60.h2w ...       0/  2097152/      0/      0
+Validating file 61.h2w ...       0/  2097152/      0/      0
+Validating file 62.h2w ...       0/  2097152/      0/      0
+Validating file 63.h2w ...       0/  2097152/      0/      0
+Validating file 64.h2w ...       0/  2097152/      0/      0
+Validating file 65.h2w ...       0/  2097152/      0/      0
+Validating file 66.h2w ...       0/  2097152/      0/      0
+Validating file 67.h2w ...       0/  2097152/      0/      0
+Validating file 68.h2w ...       0/  2097152/      0/      0
+Validating file 69.h2w ...       0/  2097152/      0/      0
+Validating file 70.h2w ...       0/  2097152/      0/      0
+Validating file 71.h2w ...       0/  2097152/      0/      0
+Validating file 72.h2w ...       0/  2097152/      0/      0
+Validating file 73.h2w ...       0/  2097152/      0/      0
+Validating file 74.h2w ...       0/  2097152/      0/      0
+Validating file 75.h2w ...       0/  2097152/      0/      0
+Validating file 76.h2w ...       0/  2097152/      0/      0
+Validating file 77.h2w ...       0/  2097152/      0/      0
+Validating file 78.h2w ...       0/  2097152/      0/      0
+Validating file 79.h2w ...       0/  2097152/      0/      0
+Validating file 80.h2w ...       0/  2097152/      0/      0
+Validating file 81.h2w ...       0/  2097152/      0/      0
+Validating file 82.h2w ...       0/  2097152/      0/      0
+Validating file 83.h2w ...       0/  2097152/      0/      0
+Validating file 84.h2w ...       0/  2097152/      0/      0
+Validating file 85.h2w ...       0/  2097152/      0/      0
+Validating file 86.h2w ...       0/  2097152/      0/      0
+Validating file 87.h2w ...       0/  2097152/      0/      0
+Validating file 88.h2w ...       0/  2097152/      0/      0
+Validating file 89.h2w ...       0/  2097152/      0/      0
+Validating file 90.h2w ...       0/  2097152/      0/      0
+Validating file 91.h2w ...       0/  2097152/      0/      0
+Validating file 92.h2w ...       0/  2097152/      0/      0
+Validating file 93.h2w ...       0/  2097152/      0/      0
+Validating file 94.h2w ...       0/  2097152/      0/      0
+Validating file 95.h2w ...       0/  2097152/      0/      0
+Validating file 96.h2w ...       0/  2097152/      0/      0
+Validating file 97.h2w ...       0/  2097152/      0/      0
+Validating file 98.h2w ...       0/  2097152/      0/      0
+Validating file 99.h2w ...       0/  2097152/      0/      0
+Validating file 100.h2w ...       0/  2097152/      0/      0
+Validating file 101.h2w ...       0/  2097152/      0/      0
+Validating file 102.h2w ...       0/  2097152/      0/      0
+Validating file 103.h2w ...       0/  2097152/      0/      0
+Validating file 104.h2w ...       0/  2097152/      0/      0
+Validating file 105.h2w ...       0/  2097152/      0/      0
+Validating file 106.h2w ...       0/  2097152/      0/      0
+Validating file 107.h2w ...       0/  2097152/      0/      0
+Validating file 108.h2w ...       0/  2097152/      0/      0
+Validating file 109.h2w ...       0/  2097152/      0/      0
+Validating file 110.h2w ...       0/  2097152/      0/      0
+Validating file 111.h2w ...       0/  2097152/      0/      0
+Validating file 112.h2w ...       0/  2097152/      0/      0
+Validating file 113.h2w ...       0/  2097152/      0/      0
+Validating file 114.h2w ...       0/  2097152/      0/      0
+Validating file 115.h2w ...       0/  2097152/      0/      0
+Validating file 116.h2w ...       0/  2097152/      0/      0
+Validating file 117.h2w ...       0/  2097152/      0/      0
+Validating file 118.h2w ...       0/  2097152/      0/      0
+Validating file 119.h2w ...       0/  2097152/      0/      0
+Validating file 120.h2w ...       0/  2097152/      0/      0
+Validating file 121.h2w ...       0/  2097152/      0/      0
+Validating file 122.h2w ...       0/  2097152/      0/      0
+Validating file 123.h2w ...       0/  2097152/      0/      0
+Validating file 124.h2w ...       0/  2097152/      0/      0
+Validating file 125.h2w ...       0/  1965992/      0/      0
+
+  Data OK: 29.24 GB (61324183 sectors)
+Data LOST: 95.70 GB (200688657 sectors)
+               Corrupted: 95.70 GB (200688657 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 2.31 MB/s
+~/Downloads 15h 23m 8.8s ❱
+
+# K
+
+## Write
+~/Downloads | 13 ❱ sudo f3write /mnt/sd
+F3 write 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+Free space: 118.15 GB
+Creating file 1.h2w ... OK!
+Creating file 2.h2w ... OK!
+Creating file 3.h2w ... OK!
+Creating file 4.h2w ... OK!
+Creating file 5.h2w ... OK!
+Creating file 6.h2w ... OK!
+Creating file 7.h2w ... OK!
+Creating file 8.h2w ... OK!
+Creating file 9.h2w ... OK!
+Creating file 10.h2w ... OK!
+Creating file 11.h2w ... OK!
+Creating file 12.h2w ... OK!
+Creating file 13.h2w ... OK!
+Creating file 14.h2w ... OK!
+Creating file 15.h2w ... OK!
+Creating file 16.h2w ... OK!
+Creating file 17.h2w ... OK!
+Creating file 18.h2w ... OK!
+Creating file 19.h2w ... OK!
+Creating file 20.h2w ... OK!
+Creating file 21.h2w ... OK!
+Creating file 22.h2w ... OK!
+Creating file 23.h2w ... OK!
+Creating file 24.h2w ... OK!
+Creating file 25.h2w ... OK!
+Creating file 26.h2w ... OK!
+Creating file 27.h2w ... OK!
+Creating file 28.h2w ... OK!
+Creating file 29.h2w ... OK!
+Creating file 30.h2w ... OK!
+Creating file 31.h2w ... OK!
+Creating file 32.h2w ... OK!
+Creating file 33.h2w ... OK!
+Creating file 34.h2w ... OK!
+Creating file 35.h2w ... OK!
+Creating file 36.h2w ... OK!
+Creating file 37.h2w ... OK!
+Creating file 38.h2w ... OK!
+Creating file 39.h2w ... OK!
+Creating file 40.h2w ... OK!
+Creating file 41.h2w ... OK!
+Creating file 42.h2w ... OK!
+Creating file 43.h2w ... OK!
+Creating file 44.h2w ... OK!
+Creating file 45.h2w ... OK!
+Creating file 46.h2w ... OK!
+Creating file 47.h2w ... OK!
+Creating file 48.h2w ... OK!
+Creating file 49.h2w ... OK!
+Creating file 50.h2w ... OK!
+Creating file 51.h2w ... OK!
+Creating file 52.h2w ... OK!
+Creating file 53.h2w ... OK!
+Creating file 54.h2w ... OK!
+Creating file 55.h2w ... OK!
+Creating file 56.h2w ... OK!
+Creating file 57.h2w ... OK!
+Creating file 58.h2w ... OK!
+Creating file 59.h2w ... OK!
+Creating file 60.h2w ... OK!
+Creating file 61.h2w ... OK!
+Creating file 62.h2w ... OK!
+Creating file 63.h2w ... OK!
+Creating file 64.h2w ... OK!
+Creating file 65.h2w ... OK!
+Creating file 66.h2w ... OK!
+Creating file 67.h2w ... OK!
+Creating file 68.h2w ... OK!
+Creating file 69.h2w ... OK!
+Creating file 70.h2w ... OK!
+Creating file 71.h2w ... OK!
+Creating file 72.h2w ... OK!
+Creating file 73.h2w ... OK!
+Creating file 74.h2w ... OK!
+Creating file 75.h2w ... OK!
+Creating file 76.h2w ... OK!
+Creating file 77.h2w ... OK!
+Creating file 78.h2w ... OK!
+Creating file 79.h2w ... OK!
+Creating file 80.h2w ... OK!
+Creating file 81.h2w ... OK!
+Creating file 82.h2w ... OK!
+Creating file 83.h2w ... OK!
+Creating file 84.h2w ... OK!
+Creating file 85.h2w ... OK!
+Creating file 86.h2w ... OK!
+Creating file 87.h2w ... OK!
+Creating file 88.h2w ... OK!
+Creating file 89.h2w ... OK!
+Creating file 90.h2w ... OK!
+Creating file 91.h2w ... OK!
+Creating file 92.h2w ... OK!
+Creating file 93.h2w ... OK!
+Creating file 94.h2w ... OK!
+Creating file 95.h2w ... OK!
+Creating file 96.h2w ... OK!
+Creating file 97.h2w ... OK!
+Creating file 98.h2w ... OK!
+Creating file 99.h2w ... OK!
+Creating file 100.h2w ... OK!
+Creating file 101.h2w ... OK!
+Creating file 102.h2w ... OK!
+Creating file 103.h2w ... OK!
+Creating file 104.h2w ... OK!
+Creating file 105.h2w ... OK!
+Creating file 106.h2w ... OK!
+Creating file 107.h2w ... OK!
+Creating file 108.h2w ... OK!
+Creating file 109.h2w ... OK!
+Creating file 110.h2w ... OK!
+Creating file 111.h2w ... OK!
+Creating file 112.h2w ... OK!
+Creating file 113.h2w ... OK!
+Creating file 114.h2w ... OK!
+Creating file 115.h2w ... OK!
+Creating file 116.h2w ... OK!
+Creating file 117.h2w ... OK!
+Creating file 118.h2w ... OK!
+Creating file 119.h2w ... OK!
+Free space: 0.00 Byte
+Average writing speed: 15.82 MB/s
+~/Downloads 2h 7m 30.9s ❱
+
+## Read
+
+F3 read 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+                  SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ...       0/  2097152/      0/      0
+Validating file 2.h2w ...       0/  2097152/      0/      0
+Validating file 3.h2w ...       0/  2097152/      0/      0
+Validating file 4.h2w ...       0/  2097152/      0/      0
+Validating file 5.h2w ...       0/  2097152/      0/      0
+Validating file 6.h2w ...       0/  2097152/      0/      0
+Validating file 7.h2w ...       0/  2097152/      0/      0
+Validating file 8.h2w ...       0/  2097152/      0/      0
+Validating file 9.h2w ...       0/  2097152/      0/      0
+Validating file 10.h2w ...       0/  2097152/      0/      0
+Validating file 11.h2w ...       0/  2097152/      0/      0
+Validating file 12.h2w ...       0/  2097152/      0/      0
+Validating file 13.h2w ...       0/  2097152/      0/      0
+Validating file 14.h2w ...       0/  2097152/      0/      0
+Validating file 15.h2w ...       0/  2097152/      0/      0
+Validating file 16.h2w ...       0/  2097152/      0/      0
+Validating file 17.h2w ...       0/  2097152/      0/      0
+Validating file 18.h2w ...       0/  2097152/      0/      0
+Validating file 19.h2w ...       0/  2097152/      0/      0
+Validating file 20.h2w ...       0/  2097152/      0/      0
+Validating file 21.h2w ...       0/  2097152/      0/      0
+Validating file 22.h2w ...       0/  2097152/      0/      0
+Validating file 23.h2w ...       0/  2097152/      0/      0
+Validating file 24.h2w ...       0/  2097152/      0/      0
+Validating file 25.h2w ...       0/  2097152/      0/      0
+Validating file 26.h2w ...       0/  2097152/      0/      0
+Validating file 27.h2w ...       0/  2097152/      0/      0
+Validating file 28.h2w ...       0/  2097152/      0/      0
+Validating file 29.h2w ...       0/  2097152/      0/      0
+Validating file 30.h2w ...       0/  2097152/      0/      0
+Validating file 31.h2w ...       0/  2097152/      0/      0
+Validating file 32.h2w ...       0/  2097152/      0/      0
+Validating file 33.h2w ... 1838976/   258176/      0/      0
+Validating file 34.h2w ... 2097152/        0/      0/      0
+Validating file 35.h2w ... 2097152/        0/      0/      0
+Validating file 36.h2w ... 2097152/        0/      0/      0
+Validating file 37.h2w ... 2097152/        0/      0/      0
+Validating file 38.h2w ... 2097152/        0/      0/      0
+Validating file 39.h2w ... 2097152/        0/      0/      0
+Validating file 40.h2w ... 2097152/        0/      0/      0
+Validating file 41.h2w ... 2097152/        0/      0/      0
+Validating file 42.h2w ... 2097152/        0/      0/      0
+Validating file 43.h2w ... 2097152/        0/      0/      0
+Validating file 44.h2w ... 2097152/        0/      0/      0
+Validating file 45.h2w ... 2097152/        0/      0/      0
+Validating file 46.h2w ... 2097152/        0/      0/      0
+Validating file 47.h2w ... 2097152/        0/      0/      0
+Validating file 48.h2w ... 2097152/        0/      0/      0
+Validating file 49.h2w ... 2097152/        0/      0/      0
+Validating file 50.h2w ... 2097096/        0/      0/     56
+Validating file 51.h2w ... 2097152/        0/      0/      0
+Validating file 52.h2w ... 2097152/        0/      0/      0
+Validating file 53.h2w ... 2097152/        0/      0/      0
+Validating file 54.h2w ... 2097152/        0/      0/      0
+Validating file 55.h2w ... 2097152/        0/      0/      0
+Validating file 56.h2w ... 2097152/        0/      0/      0
+Validating file 57.h2w ... 2097152/        0/      0/      0
+Validating file 58.h2w ... 2097152/        0/      0/      0
+Validating file 59.h2w ... 2097152/        0/      0/      0
+Validating file 60.h2w ... 2097152/        0/      0/      0
+Validating file 61.h2w ... 2097152/        0/      0/      0
+Validating file 62.h2w ... 1214671/   882481/      0/      0
+Validating file 63.h2w ...       0/  2097152/      0/      0
+Validating file 64.h2w ...       0/  2097152/      0/      0
+Validating file 65.h2w ...       0/  2097152/      0/      0
+Validating file 66.h2w ...       0/  2097152/      0/      0
+Validating file 67.h2w ...       0/  2097152/      0/      0
+Validating file 68.h2w ...       0/  2097152/      0/      0
+Validating file 69.h2w ...       0/  2097152/      0/      0
+Validating file 70.h2w ...       0/  2097152/      0/      0
+Validating file 71.h2w ...       0/  2097152/      0/      0
+Validating file 72.h2w ...       0/  2097152/      0/      0
+Validating file 73.h2w ...       0/  2097152/      0/      0
+Validating file 74.h2w ...       0/  2097152/      0/      0
+Validating file 75.h2w ...       0/  2097152/      0/      0
+Validating file 76.h2w ...       0/  2097152/      0/      0
+Validating file 77.h2w ...       0/  2097152/      0/      0
+Validating file 78.h2w ...       0/  2097152/      0/      0
+Validating file 79.h2w ...       0/  2097152/      0/      0
+Validating file 80.h2w ...       0/  2097152/      0/      0
+Validating file 81.h2w ...       0/  2097152/      0/      0
+Validating file 82.h2w ...       0/  2097152/      0/      0
+Validating file 83.h2w ...       0/  2097152/      0/      0
+Validating file 84.h2w ...       0/  2097152/      0/      0
+Validating file 85.h2w ...       0/  2097152/      0/      0
+Validating file 86.h2w ...       0/  2097152/      0/      0
+Validating file 87.h2w ...       0/  2097152/      0/      0
+Validating file 88.h2w ...       0/  2097152/      0/      0
+Validating file 89.h2w ...       0/  2097152/      0/      0
+Validating file 90.h2w ...       0/  2097152/      0/      0
+Validating file 91.h2w ...       0/  2097152/      0/      0
+Validating file 92.h2w ...       0/  2097152/      0/      0
+Validating file 93.h2w ...       0/  2097152/      0/      0
+Validating file 94.h2w ...       0/  2097152/      0/      0
+Validating file 95.h2w ...       0/  2097152/      0/      0
+Validating file 96.h2w ...       0/  2097152/      0/      0
+Validating file 97.h2w ...       0/  2097152/      0/      0
+Validating file 98.h2w ...       0/  2097152/      0/      0
+Validating file 99.h2w ...       0/  2097152/      0/      0
+Validating file 100.h2w ...       0/  2097152/      0/      0
+Validating file 101.h2w ...       0/  2097152/      0/      0
+Validating file 102.h2w ...       0/  2097152/      0/      0
+Validating file 103.h2w ...       0/  2097152/      0/      0
+Validating file 104.h2w ...       0/  2097152/      0/      0
+Validating file 105.h2w ...       0/  2097152/      0/      0
+Validating file 106.h2w ...       0/  2097152/      0/      0
+Validating file 107.h2w ...       0/  2097152/      0/      0
+Validating file 108.h2w ...       0/  2097152/      0/      0
+Validating file 109.h2w ...       0/  2097152/      0/      0
+Validating file 110.h2w ...       0/  2097152/      0/      0
+Validating file 111.h2w ...       0/  2097152/      0/      0
+Validating file 112.h2w ...       0/  2097152/      0/      0
+Validating file 113.h2w ...       0/  2097152/      0/      0
+Validating file 114.h2w ...       0/  2097152/      0/      0
+Validating file 115.h2w ...       0/  2097152/      0/      0
+Validating file 116.h2w ...       0/  2097152/      0/      0
+Validating file 117.h2w ...       0/  2097152/      0/      0
+Validating file 118.h2w ...       0/  2097152/      0/      0
+Validating file 119.h2w ...       0/   315392/      0/      0
+
+  Data OK: 29.46 GB (61773847 sectors)
+Data LOST: 88.69 GB (186005481 sectors)
+               Corrupted: 88.69 GB (186005425 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 28.00 KB (56 sectors)
+Average reading speed: 2.83 MB/s
+
+# L
+
+## Write
+
+Free space: 29.11 GB
+Creating file 1.h2w ... OK!
+Creating file 2.h2w ... OK!
+Creating file 3.h2w ... OK!
+Creating file 4.h2w ... OK!
+Creating file 5.h2w ... OK!
+Creating file 6.h2w ... OK!
+Creating file 7.h2w ... OK!
+Creating file 8.h2w ... OK!
+Creating file 9.h2w ... OK!
+Creating file 10.h2w ... OK!
+Creating file 11.h2w ... OK!
+Creating file 12.h2w ... OK!
+Creating file 13.h2w ... OK!
+Creating file 14.h2w ... OK!
+Creating file 15.h2w ... OK!
+Creating file 16.h2w ... OK!
+Creating file 17.h2w ... OK!
+Creating file 18.h2w ... OK!
+Creating file 19.h2w ... OK!
+Creating file 20.h2w ... OK!
+Creating file 21.h2w ... OK!
+Creating file 22.h2w ... OK!
+Creating file 23.h2w ... OK!
+Creating file 24.h2w ... OK!
+Creating file 25.h2w ... OK!
+Creating file 26.h2w ... OK!
+Creating file 27.h2w ... OK!
+Creating file 28.h2w ... OK!
+Creating file 29.h2w ... OK!
+Creating file 30.h2w ... OK!
+Free space: 0.00 Byte
+Average writing speed: 21.28 MB/s
+
+## Read
+
+F3 read 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+                  SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+Validating file 2.h2w ... 2097152/        0/      0/      0
+Validating file 3.h2w ... 2097152/        0/      0/      0
+Validating file 4.h2w ... 2097152/        0/      0/      0
+Validating file 5.h2w ... 2097152/        0/      0/      0
+Validating file 6.h2w ... 2097152/        0/      0/      0
+Validating file 7.h2w ... 2097152/        0/      0/      0
+Validating file 8.h2w ... 2097152/        0/      0/      0
+Validating file 9.h2w ... 2097152/        0/      0/      0
+Validating file 10.h2w ... 2097152/        0/      0/      0
+Validating file 11.h2w ... 2097152/        0/      0/      0
+Validating file 12.h2w ... 2097152/        0/      0/      0
+Validating file 13.h2w ... 2097152/        0/      0/      0
+Validating file 14.h2w ... 2097152/        0/      0/      0
+Validating file 15.h2w ... 2097152/        0/      0/      0
+Validating file 16.h2w ... 2097152/        0/      0/      0
+Validating file 17.h2w ... 2097152/        0/      0/      0
+Validating file 18.h2w ... 2097152/        0/      0/      0
+Validating file 19.h2w ... 2097152/        0/      0/      0
+Validating file 20.h2w ... 2097152/        0/      0/      0
+Validating file 21.h2w ... 2097152/        0/      0/      0
+Validating file 22.h2w ... 2097152/        0/      0/      0
+Validating file 23.h2w ... 2097152/        0/      0/      0
+Validating file 24.h2w ... 2097152/        0/      0/      0
+Validating file 25.h2w ... 2097152/        0/      0/      0
+Validating file 26.h2w ... 2097152/        0/      0/      0
+Validating file 27.h2w ... 2097152/        0/      0/      0
+Validating file 28.h2w ... 2097152/        0/      0/      0
+Validating file 29.h2w ... 2097152/        0/      0/      0
+Validating file 30.h2w ...  225216/        0/      0/      0
+
+  Data OK: 29.11 GB (61042624 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 76.94 MB/s
+
+# M
+
+## Write
+
+F3 write 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+Free space: 58.23 GB
+Creating file 1.h2w ... OK!
+Creating file 2.h2w ... OK!
+Creating file 3.h2w ... OK!
+Creating file 4.h2w ... OK!
+Creating file 5.h2w ... OK!
+Creating file 6.h2w ... OK!
+Creating file 7.h2w ... OK!
+Creating file 8.h2w ... OK!
+Creating file 9.h2w ... OK!
+Creating file 10.h2w ... OK!
+Creating file 11.h2w ... OK!
+Creating file 12.h2w ... OK!
+Creating file 13.h2w ... OK!
+Creating file 14.h2w ... OK!
+Creating file 15.h2w ... OK!
+Creating file 16.h2w ... OK!
+Creating file 17.h2w ... OK!
+Creating file 18.h2w ... OK!
+Creating file 19.h2w ... OK!
+Creating file 20.h2w ... OK!
+Creating file 21.h2w ... OK!
+Creating file 22.h2w ... OK!
+Creating file 23.h2w ... OK!
+Creating file 24.h2w ... OK!
+Creating file 25.h2w ... OK!
+Creating file 26.h2w ... OK!
+Creating file 27.h2w ... OK!
+Creating file 28.h2w ... OK!
+Creating file 29.h2w ... OK!
+Creating file 30.h2w ... OK!
+Creating file 31.h2w ... OK!
+Creating file 32.h2w ... OK!
+Creating file 33.h2w ... OK!
+Creating file 34.h2w ... OK!
+Creating file 35.h2w ... OK!
+Creating file 36.h2w ... OK!
+Creating file 37.h2w ... OK!
+Creating file 38.h2w ... OK!
+Creating file 39.h2w ... OK!
+Creating file 40.h2w ... OK!
+Creating file 41.h2w ... OK!
+Creating file 42.h2w ... OK!
+Creating file 43.h2w ... OK!
+Creating file 44.h2w ... OK!
+Creating file 45.h2w ... OK!
+Creating file 46.h2w ... OK!
+Creating file 47.h2w ... OK!
+Creating file 48.h2w ... OK!
+Creating file 49.h2w ... OK!
+Creating file 50.h2w ... OK!
+Creating file 51.h2w ... OK!
+Creating file 52.h2w ... OK!
+Creating file 53.h2w ... OK!
+Creating file 54.h2w ... OK!
+Creating file 55.h2w ... OK!
+Creating file 56.h2w ... OK!
+Creating file 57.h2w ... OK!
+Creating file 58.h2w ... OK!
+Creating file 59.h2w ... OK!
+Free space: 0.00 Byte
+Average writing speed: 38.90 MB/s
+
+## Read
+
+F3 read 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+                  SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+Validating file 2.h2w ... 2097152/        0/      0/      0
+Validating file 3.h2w ... 2097152/        0/      0/      0
+Validating file 4.h2w ... 2097152/        0/      0/      0
+Validating file 5.h2w ... 2097152/        0/      0/      0
+Validating file 6.h2w ... 2097152/        0/      0/      0
+Validating file 7.h2w ... 2097152/        0/      0/      0
+Validating file 8.h2w ... 2097152/        0/      0/      0
+Validating file 9.h2w ... 2097152/        0/      0/      0
+Validating file 10.h2w ... 2097152/        0/      0/      0
+Validating file 11.h2w ... 2097152/        0/      0/      0
+Validating file 12.h2w ... 2097152/        0/      0/      0
+Validating file 13.h2w ... 2097152/        0/      0/      0
+Validating file 14.h2w ... 2097152/        0/      0/      0
+Validating file 15.h2w ... 2097152/        0/      0/      0
+Validating file 16.h2w ... 2097152/        0/      0/      0
+Validating file 17.h2w ... 2097152/        0/      0/      0
+Validating file 18.h2w ... 2097152/        0/      0/      0
+Validating file 19.h2w ... 2097152/        0/      0/      0
+Validating file 20.h2w ... 2097152/        0/      0/      0
+Validating file 21.h2w ... 2097152/        0/      0/      0
+Validating file 22.h2w ... 2097152/        0/      0/      0
+Validating file 23.h2w ... 2097152/        0/      0/      0
+Validating file 24.h2w ... 2097152/        0/      0/      0
+Validating file 25.h2w ... 2097152/        0/      0/      0
+Validating file 26.h2w ... 2097152/        0/      0/      0
+Validating file 27.h2w ... 2097152/        0/      0/      0
+Validating file 28.h2w ... 2097152/        0/      0/      0
+Validating file 29.h2w ... 2097152/        0/      0/      0
+Validating file 30.h2w ... 2097152/        0/      0/      0
+Validating file 31.h2w ... 2097152/        0/      0/      0
+Validating file 32.h2w ... 2097152/        0/      0/      0
+Validating file 33.h2w ... 2097152/        0/      0/      0
+Validating file 34.h2w ... 2097152/        0/      0/      0
+Validating file 35.h2w ... 2097152/        0/      0/      0
+Validating file 36.h2w ... 2097152/        0/      0/      0
+Validating file 37.h2w ... 2097152/        0/      0/      0
+Validating file 38.h2w ... 2097152/        0/      0/      0
+Validating file 39.h2w ... 2097152/        0/      0/      0
+Validating file 40.h2w ... 2097152/        0/      0/      0
+Validating file 41.h2w ... 2097152/        0/      0/      0
+Validating file 42.h2w ... 2097152/        0/      0/      0
+Validating file 43.h2w ... 2097152/        0/      0/      0
+Validating file 44.h2w ... 2097152/        0/      0/      0
+Validating file 45.h2w ... 2097152/        0/      0/      0
+Validating file 46.h2w ... 2097152/        0/      0/      0
+Validating file 47.h2w ... 2097152/        0/      0/      0
+Validating file 48.h2w ... 2097152/        0/      0/      0
+Validating file 49.h2w ... 2097152/        0/      0/      0
+Validating file 50.h2w ... 2097152/        0/      0/      0
+Validating file 51.h2w ... 2097152/        0/      0/      0
+Validating file 52.h2w ... 2097152/        0/      0/      0
+Validating file 53.h2w ... 2097152/        0/      0/      0
+Validating file 54.h2w ... 2097152/        0/      0/      0
+Validating file 55.h2w ... 2097152/        0/      0/      0
+Validating file 56.h2w ... 2097152/        0/      0/      0
+Validating file 57.h2w ... 2097152/        0/      0/      0
+Validating file 58.h2w ... 2097152/        0/      0/      0
+Validating file 59.h2w ...  488704/        0/      0/      0
+
+  Data OK: 58.23 GB (122123520 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 86.32 MB/s
+
+# N
+
+## Write
+
+F3 write 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+Free space: 58.59 GB
+Creating file 1.h2w ... OK!
+Creating file 2.h2w ... OK!
+Creating file 3.h2w ... OK!
+Creating file 4.h2w ... OK!
+Creating file 5.h2w ... OK!
+Creating file 6.h2w ... OK!
+Creating file 7.h2w ... OK!
+Creating file 8.h2w ... OK!
+Creating file 9.h2w ... OK!
+Creating file 10.h2w ... OK!
+Creating file 11.h2w ... OK!
+Creating file 12.h2w ... OK!
+Creating file 13.h2w ... OK!
+Creating file 14.h2w ... OK!
+Creating file 15.h2w ... OK!
+Creating file 16.h2w ... OK!
+Creating file 17.h2w ... OK!
+Creating file 18.h2w ... OK!
+Creating file 19.h2w ... OK!
+Creating file 20.h2w ... OK!
+Creating file 21.h2w ... OK!
+Creating file 22.h2w ... OK!
+Creating file 23.h2w ... OK!
+Creating file 24.h2w ... OK!
+Creating file 25.h2w ... OK!
+Creating file 26.h2w ... OK!
+Creating file 27.h2w ... OK!
+Creating file 28.h2w ... OK!
+Creating file 29.h2w ... OK!
+Creating file 30.h2w ... OK!
+Creating file 31.h2w ... OK!
+Creating file 32.h2w ... OK!
+Creating file 33.h2w ... OK!
+Creating file 34.h2w ... OK!
+Creating file 35.h2w ... OK!
+Creating file 36.h2w ... OK!
+Creating file 37.h2w ... OK!
+Creating file 38.h2w ... OK!
+Creating file 39.h2w ... OK!
+Creating file 40.h2w ... OK!
+Creating file 41.h2w ... OK!
+Creating file 42.h2w ... OK!
+Creating file 43.h2w ... OK!
+Creating file 44.h2w ... OK!
+Creating file 45.h2w ... OK!
+Creating file 46.h2w ... OK!
+Creating file 47.h2w ... OK!
+Creating file 48.h2w ... OK!
+Creating file 49.h2w ... OK!
+Creating file 50.h2w ... OK!
+Creating file 51.h2w ... OK!
+Creating file 52.h2w ... OK!
+Creating file 53.h2w ... OK!
+Creating file 54.h2w ... OK!
+Creating file 55.h2w ... OK!
+Creating file 56.h2w ... OK!
+Creating file 57.h2w ... OK!
+Creating file 58.h2w ... OK!
+Creating file 59.h2w ... OK!
+Free space: 0.00 Byte
+Average writing speed: 31.29 MB/s
+
+## Read
+
+F3 read 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+                  SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+Validating file 2.h2w ... 2097152/        0/      0/      0
+Validating file 3.h2w ... 2097152/        0/      0/      0
+Validating file 4.h2w ... 2097152/        0/      0/      0
+Validating file 5.h2w ... 2097152/        0/      0/      0
+Validating file 6.h2w ... 2097152/        0/      0/      0
+Validating file 7.h2w ... 2097152/        0/      0/      0
+Validating file 8.h2w ... 2097152/        0/      0/      0
+Validating file 9.h2w ... 2097152/        0/      0/      0
+Validating file 10.h2w ... 2097152/        0/      0/      0
+Validating file 11.h2w ... 2097152/        0/      0/      0
+Validating file 12.h2w ... 2097152/        0/      0/      0
+Validating file 13.h2w ... 2097152/        0/      0/      0
+Validating file 14.h2w ... 2097152/        0/      0/      0
+Validating file 15.h2w ... 2097152/        0/      0/      0
+Validating file 16.h2w ... 2097152/        0/      0/      0
+Validating file 17.h2w ... 2097152/        0/      0/      0
+Validating file 18.h2w ... 2097152/        0/      0/      0
+Validating file 19.h2w ... 2097152/        0/      0/      0
+Validating file 20.h2w ... 2097152/        0/      0/      0
+Validating file 21.h2w ... 2097152/        0/      0/      0
+Validating file 22.h2w ... 2097152/        0/      0/      0
+Validating file 23.h2w ... 2097152/        0/      0/      0
+Validating file 24.h2w ... 2097152/        0/      0/      0
+Validating file 25.h2w ... 2097152/        0/      0/      0
+Validating file 26.h2w ... 2097152/        0/      0/      0
+Validating file 27.h2w ... 2097152/        0/      0/      0
+Validating file 28.h2w ... 2097152/        0/      0/      0
+Validating file 29.h2w ... 2097152/        0/      0/      0
+Validating file 30.h2w ... 2097152/        0/      0/      0
+Validating file 31.h2w ... 2097152/        0/      0/      0
+Validating file 32.h2w ... 2097152/        0/      0/      0
+Validating file 33.h2w ... 2097152/        0/      0/      0
+Validating file 34.h2w ... 2097152/        0/      0/      0
+Validating file 35.h2w ... 2097152/        0/      0/      0
+Validating file 36.h2w ... 2097152/        0/      0/      0
+Validating file 37.h2w ... 2097152/        0/      0/      0
+Validating file 38.h2w ... 2097152/        0/      0/      0
+Validating file 39.h2w ... 2097152/        0/      0/      0
+Validating file 40.h2w ... 2097152/        0/      0/      0
+Validating file 41.h2w ... 2097152/        0/      0/      0
+Validating file 42.h2w ... 2097152/        0/      0/      0
+Validating file 43.h2w ... 2097152/        0/      0/      0
+Validating file 44.h2w ... 2097152/        0/      0/      0
+Validating file 45.h2w ... 2097152/        0/      0/      0
+Validating file 46.h2w ... 2097152/        0/      0/      0
+Validating file 47.h2w ... 2097152/        0/      0/      0
+Validating file 48.h2w ... 2097152/        0/      0/      0
+Validating file 49.h2w ... 2097152/        0/      0/      0
+Validating file 50.h2w ... 2097152/        0/      0/      0
+Validating file 51.h2w ... 2097152/        0/      0/      0
+Validating file 52.h2w ... 2097152/        0/      0/      0
+Validating file 53.h2w ... 2097152/        0/      0/      0
+Validating file 54.h2w ... 2097152/        0/      0/      0
+Validating file 55.h2w ... 2097152/        0/      0/      0
+Validating file 56.h2w ... 2097152/        0/      0/      0
+Validating file 57.h2w ... 2097152/        0/      0/      0
+Validating file 58.h2w ... 2097152/        0/      0/      0
+Validating file 59.h2w ... 1242688/        0/      0/      0
+
+  Data OK: 58.59 GB (122877504 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 84.55 MB/s
+
+# O
+
+## Write
+
+F3 write 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+Free space: 30.00 GB
+Creating file 1.h2w ... OK!
+Creating file 2.h2w ... OK!
+Creating file 3.h2w ... OK!
+Creating file 4.h2w ... OK!
+Creating file 5.h2w ... OK!
+Creating file 6.h2w ... OK!
+Creating file 7.h2w ... OK!
+Creating file 8.h2w ... OK!
+Creating file 9.h2w ... OK!
+Creating file 10.h2w ... OK!
+Creating file 11.h2w ... OK!
+Creating file 12.h2w ... OK!
+Creating file 13.h2w ... OK!
+Creating file 14.h2w ... OK!
+Creating file 15.h2w ... OK!
+Creating file 16.h2w ... OK!
+Creating file 17.h2w ... OK!
+Creating file 18.h2w ... OK!
+Creating file 19.h2w ... OK!
+Creating file 20.h2w ... OK!
+Creating file 21.h2w ... OK!
+Creating file 22.h2w ... OK!
+Creating file 23.h2w ... OK!
+Creating file 24.h2w ... OK!
+Creating file 25.h2w ... OK!
+Creating file 26.h2w ... OK!
+Creating file 27.h2w ... OK!
+Creating file 28.h2w ... OK!
+Creating file 29.h2w ... OK!
+Creating file 30.h2w ... OK!
+Free space: 0.00 Byte
+Average writing speed: 16.14 MB/s
+
+## Read
+
+F3 read 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+                  SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+Validating file 2.h2w ... 2097152/        0/      0/      0
+Validating file 3.h2w ... 2097152/        0/      0/      0
+Validating file 4.h2w ... 2097152/        0/      0/      0
+Validating file 5.h2w ... 2097152/        0/      0/      0
+Validating file 6.h2w ... 2097152/        0/      0/      0
+Validating file 7.h2w ... 2097152/        0/      0/      0
+Validating file 8.h2w ... 2097152/        0/      0/      0
+Validating file 9.h2w ... 2097152/        0/      0/      0
+Validating file 10.h2w ... 2097152/        0/      0/      0
+Validating file 11.h2w ... 2097152/        0/      0/      0
+Validating file 12.h2w ... 2097152/        0/      0/      0
+Validating file 13.h2w ... 2097152/        0/      0/      0
+Validating file 14.h2w ... 2097152/        0/      0/      0
+Validating file 15.h2w ... 2097152/        0/      0/      0
+Validating file 16.h2w ... 2097152/        0/      0/      0
+Validating file 17.h2w ... 2097152/        0/      0/      0
+Validating file 18.h2w ... 2097152/        0/      0/      0
+Validating file 19.h2w ... 2097152/        0/      0/      0
+Validating file 20.h2w ... 2097152/        0/      0/      0
+Validating file 21.h2w ... 2097152/        0/      0/      0
+Validating file 22.h2w ... 2097152/        0/      0/      0
+Validating file 23.h2w ... 2097152/        0/      0/      0
+Validating file 24.h2w ... 2097152/        0/      0/      0
+Validating file 25.h2w ... 2097152/        0/      0/      0
+Validating file 26.h2w ... 2097152/        0/      0/      0
+Validating file 27.h2w ... 2097152/        0/      0/      0
+Validating file 28.h2w ... 2097152/        0/      0/      0
+Validating file 29.h2w ... 2097152/        0/      0/      0
+Validating file 30.h2w ... 2096960/        0/      0/      0
+
+  Data OK: 30.00 GB (62914368 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 80.52 MB/s
+

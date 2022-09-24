@@ -1,0 +1,9 @@
+~ ❱ f3write /run/media/sergiu/disk/
+F3 write 8.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+Free space: 58.35 GB
+Creating file 1.h2w ... OK!
+Creating file 2.h2w ... OK!
+Creating file 3.h2w ... 3.79% -- 14.37 MB/s -- 1:06:44
