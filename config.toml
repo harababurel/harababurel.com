@@ -49,7 +49,7 @@ include_content = true
 
 [extra]
 # Put all your custom variables here
-author = "Sergiu Puscas"
+author = "Sergiu Pușcaș"
 highlightjs = false
 plotlyjs = false
 katexjs = false
